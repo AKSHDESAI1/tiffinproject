@@ -90,7 +90,6 @@ app.post("/tiffin1", async (req, res) => {
     const tiffin = new Tiffin({
       name: CustomerName1,
       email: Email1,
-      password: hash,
       tiffin: Tiffin1,
       response: "",
       totalcost: Cost1,
