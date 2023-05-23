@@ -242,26 +242,26 @@ dayInput.value = daysDiff;
     <body>
     <div class="box">
       <form class="form" method="post">
-        <!-- <div class="inputbox">
+         <div class="inputbox" hidden>
           <input type="text" required="required" name="name" readonly value="<%=name%>"
           />
           <span> Customer Name </span>
           <i></i>
-        </div> -->
-<!-- 
-        <div class="inputbox">
+        </div> 
+
+        <div class="inputbox" hidden>
           <input type="text" name="email" required="required" readonly value="<%=email%>"
           />
           <span>EmaliID</span>
           <i></i>
-        </div> -->
+        </div> 
 
-        <!-- <div class="inputbox">
+        <div class="inputbox" hidden>
           <input type="text" name="phone" required="required" readonly value="<%=phone%>"
           />
           <span>Contact</span>
           <i></i>
-        </div> -->
+        </div> 
 
         <div class="inputbox">
           <input type="text" name="tiffin" required="required" value="<%= size
@@ -303,12 +303,12 @@ dayInput.value = daysDiff;
 
       </script>
         <div class="inputbox">
-          <input type="date" onchange=calculateTotalDays name="startDate" required="required" />
+          <input type="date" onchange=calculateTotalDays name="fromdate" required="required" />
           <span>From Date</span>
           <i></i>
         </div>
         <div class="inputbox">
-          <input type="date" onchange=calculateTotalDays name="endDate" required="required" />
+          <input type="date" onchange=calculateTotalDays name="todate" required="required" />
           <span>To Date</span>
           <i></i>
         </div>
